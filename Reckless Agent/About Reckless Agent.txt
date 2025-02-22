@@ -1,0 +1,9 @@
+I added a Reckless class to the behavior_type code, 
+then modified generate_traffic.py to spawn 15 reckless agents.
+
+After that, I attached a collision sensor and let them run for 1 minute to collect data. 
+The simulation logs vehicle collisions, speed, and movement, outputting data in Reckless_Vehicle_metrics.csv for further analysis.
+
+The generated plots compare normal agents and reckless agents.
+However, it appears that reckless agents, by colliding with normal agents, have also increased the number of collisions for normal agents. 
+To prevent excessive logging of repeated collisions, I implemented a cooldown period to avoid logging too many crashes from minor or repeated contacts.
