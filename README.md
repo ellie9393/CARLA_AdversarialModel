@@ -22,7 +22,16 @@ This repository contains the following directories:
 - **`collison_manager_behavior`**: Modifies collision handling mechanisms to evaluate how agents react to unexpected obstacles.
 
 ## Running the Simulations
-To execute any scenario, navigate to the corresponding folder and run the script. 
+#### Running Noisy Waypoints
+  1. Activate CARLA Simulator by following the setup tutorial.
+  2. Run the `generate_traffic.py`
+  3. Open the Jupyter notebook and execute the corresponding script to observe the noisy waypoint behavior.
+#### Running Other Agent Behaviors
+  1. Copy the corresponding agent behavior file into the CARLA agent directory:
+     C:\CARLA_0.9.15\PythonAPI\agents\
+     Note: Remember to back up the original behavior file before replacing it.
+  2. Run the `generate_traffic.py` script
+  3. Open the Jupyter notebook and execute the script to analyze the results.
 
 
 ## Data Collection and Analysis
