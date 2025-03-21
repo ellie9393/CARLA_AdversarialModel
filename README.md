@@ -15,6 +15,7 @@ To get started, follow this [(https://www.youtube.com/watch?v=jIK9sanumuU)] to i
 ## Repository Structure
 This repository contains the following directories:
 
+- **`Isolated_Waypoints_noise`**: Implements Isolated noisy waypoints following behavior where agents deviate from their intended path.
 - **`Nosiy_waypoints`**: Implements noisy waypoint following behavior where agents deviate from their intended path.
 - **`Noisy_waypoints_increasing`**: Similar to `Nosiy_waypoints`, but with progressively increasing noise levels.
 - **`reckless_agent`**: Introduces reckless driving behaviors such as aggressive lane changes and high-speed maneuvers.
